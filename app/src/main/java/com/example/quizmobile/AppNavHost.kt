@@ -1,5 +1,7 @@
 package com.example.quizmobile
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -8,6 +10,7 @@ import com.example.quizmobile.auth.LoginScreen
 import com.example.quizmobile.auth.SignupScreen
 import com.example.quizmobile.data.FirebaseRepository
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun AppNavHost(navController: NavHostController, repo: FirebaseRepository) {
     val startDestination = if (repo.currentUser() != null) "home" else "login"
