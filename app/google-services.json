@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170317199755",
+    "project_id": "mobile-f305d",
+    "storage_bucket": "mobile-f305d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170317199755:android:8aeafaa35dc499fe6d178e",
+        "android_client_info": {
+          "package_name": "com.example.quizmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASgG9_ycotPJkdskMNOZ5iP6c447Ka1Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
